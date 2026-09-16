@@ -19,15 +19,8 @@
     display: block;
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
-  }
-  /* En pantallas angostas (celulares), mostramos la imagen completa
-     sin recortar el texto, en vez de recortarla como en escritorio */
-  @media (max-width: 767px) {
-    .maintenance-img {
-      object-fit: contain;
-    }
   }
 </style>
 </head>
@@ -35,3 +28,4 @@
   <img class="maintenance-img" src="images/mantenimiento.webp" alt="All Smiles Dental — Estamos realizando mejoras en nuestra web">
 </body>
 </html>
+
