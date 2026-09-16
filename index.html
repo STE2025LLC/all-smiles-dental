@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>All Smiles Dental — Sitio en mantenimiento</title>
+<link rel="icon" type="image/webp" href="images/logo/Logo%20navegador.webp">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+  }
+  .maintenance-img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+  /* En pantallas angostas (celulares), mostramos la imagen completa
+     sin recortar el texto, en vez de recortarla como en escritorio */
+  @media (max-width: 767px) {
+    .maintenance-img {
+      object-fit: contain;
+    }
+  }
+</style>
+</head>
+<body>
+  <img class="maintenance-img" src="images/mantenimiento.webp" alt="All Smiles Dental — Estamos realizando mejoras en nuestra web">
+</body>
+</html>
